@@ -1,19 +1,19 @@
-module.exports.getAll = (res, req) => {
+module.exports.getAll = (req, res) => {
+    res.status(200).json({message: 'Categories all'})
+}
+
+module.exports.getById = (req, res) => {
 
 }
 
-module.exports.getById = (res, req) => {
+module.exports.remove = (req, res) => {
 
 }
 
-module.exports.remove = (res, req) => {
+module.exports.create = (req, res) => {
 
 }
 
-module.exports.create = (res, req) => {
-
-}
-
-module.exports.update = (res, req) => {
+module.exports.update = (req, res) => {
 
 }
